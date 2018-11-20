@@ -14,9 +14,9 @@ source:
   sha256: 46276d0a3493a6b3bf9241e7a4a38a3819e73f4771c5769c33e7d4c5ab29da43
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -53,8 +53,7 @@ about:
     medical articles" (written in Korean), version 1, by Keon-Woong Moon with Korean
     demographic data with several plot functions.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
