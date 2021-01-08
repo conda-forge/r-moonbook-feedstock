@@ -27,18 +27,18 @@ requirements:
     - r-base
     - r-magrittr
     - r-nortest
-    - r-purrr
     - r-sjmisc
     - r-stringr
     - r-survival
+    - r-ztable
   run:
     - r-base
     - r-magrittr
     - r-nortest
-    - r-purrr
     - r-sjmisc
     - r-stringr
     - r-survival
+    - r-ztable
 
 test:
   commands:
