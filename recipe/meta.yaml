@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/moonBook_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/moonBook/moonBook_{{ version }}.tar.gz
-  sha256: 3e53d58e5086f3d600e948be746075d1e348a2aa2cb5267b0a4f648dd8bfe87c
+  sha256: 7da54fd5548bee59977fc45b2ce642a1e7850657a05010fdcd37ef0aeade84d6
 
 build:
   merge_build_host: true  # [win]
