@@ -1,11 +1,11 @@
-About r-moonbook
-================
+About r-moonbook-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-moonbook-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cardiomoon/moonBook
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-moonbook-feedstock/blob/main/LICENSE.txt)
 
 Summary: Several analysis-related functions for the book entitled "R statistics and graph for medical articles" (written in Korean), version 1, by Keon-Woong Moon with Korean demographic data with several plot functions.
 
