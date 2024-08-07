@@ -1,6 +1,5 @@
 {% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-moonbook
@@ -13,8 +12,7 @@ source:
   sha256: 7da54fd5548bee59977fc45b2ce642a1e7850657a05010fdcd37ef0aeade84d6
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
